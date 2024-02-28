@@ -20,5 +20,6 @@ jobs:
     - name: Build the Docker image
       run: docker build -t cicd-pipeline .
     - name: Push to Dockerhub
-      run: docker tag cicd-pipeline:latest
-      run: docker push 41195/cicd-pipeline:latest
+      run: |
+        docker tag cicd-pipeline:latest 
+        docker push 41195/cicd-pipeline:latest
