@@ -1,0 +1,15 @@
+{
+  "name": "aws-cicd-demo",
+  "version": "1.0.0",
+  "description": "github_access_key: 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",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
