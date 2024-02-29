@@ -4,8 +4,8 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.json({
-        status: 200,
-        msg: "Hello wrord !!"
+        status: 201,
+        msg: "Hello wrord (update 1st) !!"
     })
 })
 
